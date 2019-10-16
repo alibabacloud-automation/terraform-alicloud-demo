@@ -16,17 +16,17 @@ Usage
 
 ## Inputs
 
-    | Name | Description | Type | Default | Required |
-    |------|-------------|:----:|:-----:|:-----:|
-    |api_name          |  The name of the api gateway api.   |   string  |    ""   |    yes       |
-    ...
+| Name | Description | Type | Default | Required |
+|------|-------------|:----:|:-----:|:-----:|
+|xxx          |  xxx   |   string  |    ""   |    yes       |
+...
 
-    ## Outputs
+## Outputs
 
-    | Name | Description |
-    |------|-------------|
-    | this_api_id    |     the ID of api-gateway API        |
-    ...
+| Name | Description |
+|------|-------------|
+| xxx    |     xxx      |
+...
 
 Terraform version
 -----------------
