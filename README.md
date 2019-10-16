@@ -14,6 +14,20 @@ Usage
 
 [Module Usage Description]
 
+## Inputs
+
+    | Name | Description | Type | Default | Required |
+    |------|-------------|:----:|:-----:|:-----:|
+    |api_name          |  The name of the api gateway api.   |   string  |    ""   |    yes       |
+    ...
+
+    ## Outputs
+
+    | Name | Description |
+    |------|-------------|
+    | this_api_id    |     the ID of api-gateway API        |
+    ...
+
 Terraform version
 -----------------
 Terraform version 0.12.0+ is required for this module to work.
