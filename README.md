@@ -16,17 +16,20 @@ Usage
 
 ## Inputs
 
-| Name | Description | Type | Default | Required |
-|------|-------------|:----:|:-----:|:-----:|
-|xxx          |  xxx   |   string  |    ""   |    yes       |
-...
+| Name | Description | Type | Default | Required | Vaild When |
+|------|-------------|:----:|:-----:|:-----:|:-----:|
+| region | The region ID used to launch this module resources. If not set, it will be sourced from followed by ALICLOUD_REGION environment variable and profile | string  | - | no  | - |
+| profile | The profile name as set in the shared credentials file. If not set, it will be sourced from the ALICLOUD_PROFILE environment variable. | string  | - | no  | - |
+| shared_credentials_file | This is the path to the shared credentials file. If this is not set and a profile is specified, $HOME/.aliyun/config.json will be used. | string  | - | no  | - |
+| skip_region_validation | Skip static validation of region ID. Used by users of alternative AlibabaCloud-like APIs or users w/ access to regions that are not public (yet). | bool  | false | no  | - |
+......
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
 | xxx    |     xxx      |
-...
+......
 
 Terraform version
 -----------------
