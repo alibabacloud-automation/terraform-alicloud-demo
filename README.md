@@ -37,7 +37,7 @@ Terraform version 0.12.0+ is required for this module to work.
 
 Authors
 -------
-[Author Info]
+Created and maintained by Alibaba Cloud Terraform Team(terraform@alibabacloud.com)
 
 Reference
 ---------
